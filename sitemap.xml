@@ -7,27 +7,17 @@
     xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
     xmlns:video="https://www.google.com/schemas/sitemap-video/1.1">
     <url>
-      <loc>https://urara-demo.netlify.app</loc>
+      <loc>https://luisrioscode.xyz</loc>
     </url>
     
         <url>
-            <loc>https://urara-demo.netlify.app/blog</loc>
+            <loc>https://luisrioscode.xyz/blog/tutorial-como-hacer-un-blog-con-urara-y-sveltekit</loc>
             <lastmod>2025-01-05T00:00:00.000Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
-            <loc>https://urara-demo.netlify.app/hello-world/elements</loc>
-            <lastmod>2023-05-25T22:09:10.011Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
-            <loc>https://urara-demo.netlify.app/hello-world/toc-disabled</loc>
-            <lastmod>2023-05-25T22:09:10.015Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
-            <loc>https://urara-demo.netlify.app/hello-world</loc>
-            <lastmod>2021-12-12T00:00:00.000Z</lastmod>
+            <loc>https://luisrioscode.xyz/blog</loc>
+            <lastmod>2023-05-26T00:00:00.000Z</lastmod>
             <priority>0.5</priority>
         </url>
   </urlset>
