@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://luisrioscode.xyz/</id>
   <title><![CDATA[luisrioscode]]></title>
-  <subtitle><![CDATA[Welcome to my coding blog portfolio site]]></subtitle>
+  <subtitle><![CDATA[Ingeniero de Software y amante de las plantas]]></subtitle>
   <icon>https://luisrioscode.xyz/favicon.png</icon>
   <link href="https://luisrioscode.xyz" />
   <link href="https://luisrioscode.xyz/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2023-05-26T23:46:31.588Z</updated>
+  <updated>2023-05-26T23:55:21.570Z</updated>
   <author>
     <name><![CDATA[luisrioscode]]></name>
   </author>
