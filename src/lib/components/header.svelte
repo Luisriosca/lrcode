@@ -73,7 +73,7 @@
         <div id="change-theme" class="dropdown dropdown-end">
           <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
           <!-- reference: https://github.com/saadeghi/daisyui/issues/1285 -->
-          <div tabindex="0" class="btn btn-square btn-ghost">
+          <div tabindex="0" class="btn btn-square btn-ghost hidden">
             <span class="i-heroicons-outline-color-swatch" />
           </div>
           <!-- svelte-ignore a11y-no-noninteractive-tabindex -->

@@ -1,10 +1,10 @@
 ---
-title: 'Blog'
-image: '/hello-world/urara.webp'
-created: 2023-25-05
-updated: 2023-25-05
+title: 'Acerca de este blog'
+image: '/blog/me-blogging.webp'
+created: 2023-05-25
+updated: 2023-05-26
 tags:
   - 'Blog'
-  - 'Code'
-  - 'Luisrioscode'
+  - 'Blogging'
+  - 'Coding'
 ---

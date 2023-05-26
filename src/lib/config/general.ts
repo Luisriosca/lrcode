@@ -2,29 +2,9 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   /* {
-    name: 'cmyk',
-    text: '🖨 Light'
-  },
-  {
-    name: 'dracula',
-    text: '🧛 Dark'
-  },
-  {
-    name: 'valentine',
-    text: '🌸 Valentine'
-  },
-  {
-    name: 'aqua',
-    text: '💦 Aqua'
-  },
-  {
-    name: 'synthwave',
-    text: '🌃 Synthwave'
-  }, */
-  {
     name: 'night',
     text: '🌃 Night'
-  },
+  }, */
   {
     name: 'lofi',
     text: '🎶 Lo-Fi'
@@ -48,7 +28,27 @@ export const theme: ThemeConfig = [
   {
     name: 'black',
     text: '🖤 Black'
-  } */
+  },
+  {
+    name: 'cmyk',
+    text: '🖨 Light'
+  },
+  {
+    name: 'dracula',
+    text: '🧛 Dark'
+  },
+  {
+    name: 'valentine',
+    text: '🌸 Valentine'
+  },
+  {
+    name: 'aqua',
+    text: '💦 Aqua'
+  },
+  {
+    name: 'synthwave',
+    text: '🌃 Synthwave'
+  }, */
 ]
 
 export const head: HeadConfig = {}
@@ -59,14 +59,14 @@ export const header: HeaderConfig = {
       text: 'Portfolio', 
       link: '/portfolio'
     },
-    {
+    /* {
       text: 'Get Started',
       link: '/hello-world'
     },
     {
       text: 'Elements',
       link: '/hello-world/elements'
-    },
+    }, */
   ]
 }
 
