@@ -2,10 +2,10 @@
   import Profile from '$lib/components/index_profile.svelte'
   import { fly } from 'svelte/transition'
 
-  let showLanding = true
+  let showPortfolio = true
 </script>
 
-{#if !showLanding}
+{#if !showPortfolio}
   <div class="w-full p-4" in:fly={{ x: -50, duration: 300, delay: 300 }} out:fly={{ x: -50, duration: 300 }}>
     <main class="w-full flex flex-col h-screen content-center justify-center">
       <div class="w-full sm:w-1/2 lg:w-2/4 rounded-xl m-auto">
@@ -26,6 +26,22 @@
     </main>
   </div>
 {/if}
-{#if showLanding}
-  <h1>hola</h1>
+{#if showPortfolio}
+  <div class="container mx-auto">
+    <div class=" h-96 p-4">
+      <h1 class="text-6xl text-center font-mono">luisrioscode</h1>
+
+      <div class="flex flex-row">
+        <figure class="basis-1/4 flex">
+          <img src="/assets/elpatron@640.jpeg" class="m-auto rounded-full ring-2 ring-white inline-block h-56 w-56" alt="" />
+        </figure>
+        <div class="text-justify m-auto basis-3/4">
+          <p class="m-auto">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis officia dolor quae ratione iusto vel quod rem,
+            culpa natus sunt beatae eius illo saepe eveniet. Doloribus possimus tempore sequi autem.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 {/if}
